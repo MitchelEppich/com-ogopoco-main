@@ -11,5 +11,11 @@
 	"assets": {
 		"directory": "./dist/client",
 		"not_found_handling": "single-page-application"
-	}
+	},
+	"routes": [
+		{
+			"pattern": "shopify.ogopoco.com",
+			"custom_domain": true
+		}
+	]
 }
